@@ -1,8 +1,0 @@
-Analysis Summary - 2025-07-31 16:50:34
-Total Companies: 5
-Successfully Analyzed: 5
-High-Value Prospects: 0
-Good Prospects: 0
-Medium Prospects: 1
-Non-Prospects: 4
-Processing Time: 0h 0m

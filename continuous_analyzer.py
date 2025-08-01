@@ -401,11 +401,11 @@ class ContinuousTourOperatorAnalyzer:
         
         if has_chatbot:
             if chatbot_types:
-                return f"YES - {', '.join(chatbot_types[:3])}"
+                return f"TRUE - {', '.join(chatbot_types[:3])}"
             else:
-                return "YES - Unknown type"
+                return "TRUE - Unknown type"
         else:
-            return "NO"
+            return "FALSE"
 
     def _generate_booking_summary(self, analysis):
         """Generate booking technology summary."""
@@ -669,12 +669,31 @@ class ContinuousTourOperatorAnalyzer:
         """Process a single batch of companies."""
         batch_data = df.loc[batch_indices].copy()
         
-        # Find URL column
-        url_columns = ['Website URL', 'website url', 'url', 'domain', 'website', 'company_url', 'site', 'Website', 'URL', 'Domain']
-        url_column = next((col for col in url_columns if col in df.columns), None)
+        # Find URL column (more flexible matching)
+        url_columns = ['Website URL', 'website url', 'url', 'domain', 'website', 'company_url', 'site', 'Website', 'URL', 'Domain', 'Website Url', 'website_url', 'Company Website', 'Site URL', 'company website', 'Company URL']
+        url_column = None
+        
+        # First try exact match
+        for col in url_columns:
+            if col in df.columns:
+                url_column = col
+                break
+        
+        # If no exact match, try case-insensitive partial match
+        if not url_column:
+            for col in df.columns:
+                col_lower = col.lower()
+                if any(keyword in col_lower for keyword in ['url', 'website', 'site', 'domain']):
+                    url_column = col
+                    print(f"📍 Found URL column: '{col}'")
+                    break
         
         if not url_column:
-            logger.error("No URL column found in CSV!")
+            print("❌ ERROR: No URL column found in CSV!")
+            print("📋 Available columns:")
+            for i, col in enumerate(df.columns, 1):
+                print(f"   {i}. '{col}'")
+            print("\n💡 Please ensure your CSV has a column with 'URL', 'website', or 'site' in the name")
             return
         
         # Run parallel analysis
@@ -686,7 +705,7 @@ class ContinuousTourOperatorAnalyzer:
                     analysis = await self.analyze_website(browser, url, self.current_settings['timeout'])
                     
                     # Update dataframe with results (ONLY update this specific row)
-                    df.loc[index, 'has_chatbot'] = 'Yes' if analysis['has_chatbot'] else 'No'
+                    df.loc[index, 'has_chatbot'] = 'True' if analysis['has_chatbot'] else 'False'
                     df.loc[index, 'chatbot_analysis'] = self._generate_chatbot_summary(analysis)
                     df.loc[index, 'chatbot_types_detailed'] = '; '.join(analysis['chatbot_types']) if analysis['chatbot_types'] else 'None detected'
                     df.loc[index, 'booking_technology_summary'] = self._generate_booking_summary(analysis)
@@ -695,8 +714,8 @@ class ContinuousTourOperatorAnalyzer:
                     df.loc[index, 'ota_dependencies_detailed'] = '; '.join(analysis['ota_dependencies']) if analysis['ota_dependencies'] else 'None detected'
                     df.loc[index, 'prospect_evaluation'] = self._generate_prospect_evaluation(analysis)
                     df.loc[index, 'pages_analyzed'] = analysis.get('pages_analyzed', 0)
-                    df.loc[index, 'has_contact_form'] = 'Yes' if analysis.get('analysis_details', {}).get('has_contact_form') else 'No'
-                    df.loc[index, 'has_online_booking'] = 'Yes' if analysis.get('analysis_details', {}).get('has_online_booking') else 'No'
+                    df.loc[index, 'has_contact_form'] = 'True' if analysis.get('analysis_details', {}).get('has_contact_form') else 'False'
+                    df.loc[index, 'has_online_booking'] = 'True' if analysis.get('analysis_details', {}).get('has_online_booking') else 'False'
                     df.loc[index, 'external_booking_links'] = analysis.get('analysis_details', {}).get('external_booking_links', 0)
                     df.loc[index, 'analysis_confidence'] = "High" if analysis.get('pages_analyzed', 0) >= 3 else "Medium" if analysis.get('pages_analyzed', 0) >= 2 else "Low"
                     df.loc[index, 'last_analyzed'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -712,7 +731,16 @@ class ContinuousTourOperatorAnalyzer:
                     logger.error(f"❌ FAILED: {company_name} - {error_msg}")
 
         async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True)
+            # Try different browsers if chromium fails
+            try:
+                browser = await p.chromium.launch(headless=True)
+            except Exception as e:
+                logger.warning(f"Chromium failed, trying Firefox: {e}")
+                try:
+                    browser = await p.firefox.launch(headless=True)
+                except Exception as e2:
+                    logger.warning(f"Firefox failed, trying WebKit: {e2}")
+                    browser = await p.webkit.launch(headless=True)
             tasks = []
             
             for index in batch_indices:
@@ -885,8 +913,8 @@ class ContinuousTourOperatorAnalyzer:
         print(f"💎 High-value prospect rate: {(self.stats['high_value_prospects']/total_completed*100):.1f}%")
         
         # Chatbot analysis
-        companies_with_chatbots = len(df[df['has_chatbot'] == 'Yes'])
-        companies_without_chatbots = len(df[df['has_chatbot'] == 'No'])
+        companies_with_chatbots = len(df[df['has_chatbot'] == 'True'])
+        companies_without_chatbots = len(df[df['has_chatbot'] == 'False'])
         
         print(f"\n💬 CHATBOT ANALYSIS:")
         print(f"✅ Companies WITH chatbots: {companies_with_chatbots:,}")

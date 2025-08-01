@@ -1,0 +1,46 @@
+🎯 AIRTABLE IMPORT INSTRUCTIONS
+==================================================
+
+📋 IMPORT ORDER (Import in this exact order):
+
+1. airtable_import_part_1_of_3.csv
+   📊 Rows: 641 companies
+   📏 Size: 4.02 MB
+   🏢 Companies: Row 1 to 641
+
+2. airtable_import_part_2_of_3.csv
+   📊 Rows: 641 companies
+   📏 Size: 3.74 MB
+   🏢 Companies: Row 642 to 1282
+
+3. airtable_import_part_3_of_3.csv
+   📊 Rows: 639 companies
+   📏 Size: 3.70 MB
+   🏢 Companies: Row 1283 to 1921
+
+🔧 AIRTABLE IMPORT SETTINGS:
+- Import Type: 'CSV'
+- First row contains field names: YES
+- Create new table: YES (for first file)
+- Add to existing table: YES (for subsequent files)
+
+📊 FIELD TYPE RECOMMENDATIONS:
+- has_chatbot: Single Select (True, False)
+- has_contact_form: Single Select (True, False)
+- has_online_booking: Single Select (True, False)
+- prospect_evaluation: Single Select
+- analysis_confidence: Single Select (High, Medium, Low)
+- chatbot_type: Single Select
+- competitive_threat: Single Select
+- still_prospect: Single Select (True, False)
+
+⚠️  IMPORTANT NOTES:
+1. Import files in the exact order listed above
+2. Use 'Company Name' as the primary field
+3. Check for duplicates after each import
+4. Verify total row count matches original data
+
+📈 EXPECTED FINAL RESULTS:
+- Total companies: 1921
+- Source file: FULL_MERGED_analysis_results.csv
+- Split into: 3 files

@@ -1,0 +1,44 @@
+🧹 CLEAN AIRTABLE IMPORT INSTRUCTIONS
+==================================================
+
+✅ DUPLICATES REMOVED - READY FOR IMPORT
+
+📋 IMPORT ORDER (Import in this exact order):
+
+1. airtable_import_CLEAN_part_1_of_4.csv
+   📊 Rows: 500 companies (NO DUPLICATES)
+   📏 Size: 3.01 MB
+   🏢 Range: Companies 1 to 500
+
+2. airtable_import_CLEAN_part_2_of_4.csv
+   📊 Rows: 500 companies (NO DUPLICATES)
+   📏 Size: 3.00 MB
+   🏢 Range: Companies 501 to 1000
+
+3. airtable_import_CLEAN_part_3_of_4.csv
+   📊 Rows: 500 companies (NO DUPLICATES)
+   📏 Size: 2.94 MB
+   🏢 Range: Companies 1001 to 1500
+
+4. airtable_import_CLEAN_part_4_of_4.csv
+   📊 Rows: 129 companies (NO DUPLICATES)
+   📏 Size: 0.77 MB
+   🏢 Range: Companies 1501 to 1629
+
+🎯 IMPORT SETTINGS:
+- Import Type: CSV
+- First row contains headers: YES
+- Primary field: Company Name
+- Create new table: YES (first file only)
+- Add to existing: YES (subsequent files)
+
+✅ VERIFICATION STEPS:
+1. After importing all files, check total records
+2. Should be exactly 1629 companies
+3. No duplicate company names
+4. All analysis data preserved
+
+🚨 IMPORTANT:
+- These files have duplicates REMOVED
+- Each company appears only ONCE
+- Most complete data kept for each company

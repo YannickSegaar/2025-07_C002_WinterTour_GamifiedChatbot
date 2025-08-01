@@ -1,0 +1,8 @@
+Analysis Summary - 2025-07-31 18:11:07
+Total Companies: 1741
+Successfully Analyzed: 1741
+High-Value Prospects: 190
+Good Prospects: 46
+Medium Prospects: 162
+Non-Prospects: 1343
+Processing Time: 0h 54m
