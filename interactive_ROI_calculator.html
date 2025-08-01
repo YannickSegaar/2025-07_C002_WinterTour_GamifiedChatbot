@@ -444,15 +444,6 @@
                         <label for="monthlyVisits">Monthly Website Visits</label>
                         <input type="number" id="monthlyVisits" value="5000" min="100" max="1000000">
                     </div>
-                    <div class="input-group">
-                        <div class="slider-label-group">
-                            <label for="bounceRate">Current Bounce Rate</label>
-                            <span class="slider-value" id="bounceRateValue">65%</span>
-                        </div>
-                        <div class="slider-container">
-                            <input type="range" id="bounceRate" class="slider" min="30" max="90" value="65">
-                        </div>
-                    </div>
                 </div>
 
                 <!-- Current Performance -->
@@ -652,7 +643,6 @@
             inputs: {
                 companyName: document.getElementById('companyName'),
                 monthlyVisits: document.getElementById('monthlyVisits'),
-                bounceRate: document.getElementById('bounceRate'),
                 avgPrice: document.getElementById('avgPrice'),
                 conversionRate: document.getElementById('conversionRate'),
                 otaPercentage: document.getElementById('otaPercentage'),
@@ -662,25 +652,20 @@
                 setupFee: document.getElementById('setupFee'),
                 monthlyRetainer: document.getElementById('monthlyRetainer'),
                 includeRetainer: document.getElementById('includeRetainer'),
-                // Add newly editable fields here
                 currentBookings: document.getElementById('currentBookings'),
                 currentRevenue: document.getElementById('currentRevenue'),
                 commissionLoss: document.getElementById('commissionLoss'),
             },
             outputs: {
-                // Slider Values
-                bounceRateValue: document.getElementById('bounceRateValue'),
                 conversionRateValue: document.getElementById('conversionRateValue'),
                 otaPercentageValue: document.getElementById('otaPercentageValue'),
                 commissionRateValue: document.getElementById('commissionRateValue'),
                 conversionImprovementValue: document.getElementById('conversionImprovementValue'),
                 directBookingIncreaseValue: document.getElementById('directBookingIncreaseValue'),
-                // Dashboard
                 roiPercentage: document.getElementById('roiPercentage'),
                 paybackMonths: document.getElementById('paybackMonths'),
                 netProfitYear1: document.getElementById('netProfitYear1'),
                 totalAnnualBenefit: document.getElementById('totalAnnualBenefit'),
-                // Comparison Cards
                 currentBookingsComp: document.getElementById('currentBookingsComp'),
                 currentRevenueComp: document.getElementById('currentRevenueComp'),
                 currentCommissionComp: document.getElementById('currentCommissionComp'),
@@ -689,7 +674,6 @@
                 newRevenueComp: document.getElementById('newRevenueComp'),
                 commissionSavingsComp: document.getElementById('commissionSavingsComp'),
                 newConversionComp: document.getElementById('newConversionComp'),
-                // Value Proposition
                 delayCost: document.getElementById('delayCost'),
                 paybackSummary: document.getElementById('paybackSummary'),
                 annualProfitSummary: document.getElementById('annualProfitSummary'),
@@ -708,9 +692,9 @@
 
         // --- Presets ---
         const presets = {
-            small: { monthlyVisits: 2500, bounceRate: 70, avgPrice: 65, conversionRate: 1.8, otaPercentage: 60, commissionRate: 28, conversionImprovement: 35, directBookingIncrease: 20, setupFee: 5500, monthlyRetainer: 650 },
-            medium: { monthlyVisits: 8000, bounceRate: 60, avgPrice: 95, conversionRate: 2.5, otaPercentage: 45, commissionRate: 25, conversionImprovement: 40, directBookingIncrease: 25, setupFee: 7500, monthlyRetainer: 800 },
-            large: { monthlyVisits: 25000, bounceRate: 55, avgPrice: 125, conversionRate: 3.2, otaPercentage: 35, commissionRate: 22, conversionImprovement: 45, directBookingIncrease: 30, setupFee: 12500, monthlyRetainer: 1200 }
+            small: { monthlyVisits: 2500, avgPrice: 65, conversionRate: 1.8, otaPercentage: 60, commissionRate: 28, conversionImprovement: 35, directBookingIncrease: 20, setupFee: 5500, monthlyRetainer: 650 },
+            medium: { monthlyVisits: 8000, avgPrice: 95, conversionRate: 2.5, otaPercentage: 45, commissionRate: 25, conversionImprovement: 40, directBookingIncrease: 25, setupFee: 7500, monthlyRetainer: 800 },
+            large: { monthlyVisits: 25000, avgPrice: 125, conversionRate: 3.2, otaPercentage: 35, commissionRate: 22, conversionImprovement: 45, directBookingIncrease: 30, setupFee: 12500, monthlyRetainer: 1200 }
         };
 
         // --- Helper Functions ---
@@ -867,7 +851,7 @@
         // --- Event Handlers & Setup ---
         function setupEventListeners() {
             // Forward calculation listeners
-            ['monthlyVisits', 'avgPrice', 'conversionRate', 'otaPercentage', 'commissionRate', 'conversionImprovement', 'directBookingIncrease', 'setupFee', 'monthlyRetainer', 'includeRetainer', 'bounceRate', 'companyName']
+            ['monthlyVisits', 'avgPrice', 'conversionRate', 'otaPercentage', 'commissionRate', 'conversionImprovement', 'directBookingIncrease', 'setupFee', 'monthlyRetainer', 'includeRetainer', 'companyName']
             .forEach(id => {
                 if (elements.inputs[id]) {
                     elements.inputs[id].addEventListener('input', calculateROI);
