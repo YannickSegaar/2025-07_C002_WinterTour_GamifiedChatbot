@@ -459,7 +459,7 @@
                             <span class="slider-value" id="conversionRateValue">2.0%</span>
                         </div>
                         <div class="slider-container">
-                            <input type="range" id="conversionRate" class="slider" min="0.5" max="5" step="0.1" value="2">
+                            <input type="range" id="conversionRate" class="slider" min="0.1" max="10" step="0.1" value="2">
                         </div>
                     </div>
                     <div class="input-group">
@@ -478,19 +478,19 @@
                     <div class="input-group">
                         <div class="slider-label-group">
                             <label for="otaPercentage">OTA Booking Percentage</label>
-                            <span class="slider-value" id="otaPercentageValue">40%</span>
+                            <span class="slider-value" id="otaPercentageValue">40.0%</span>
                         </div>
                         <div class="slider-container">
-                            <input type="range" id="otaPercentage" class="slider" min="0" max="80" value="40">
+                            <input type="range" id="otaPercentage" class="slider" min="0" max="99.9" step="0.1" value="40">
                         </div>
                     </div>
                     <div class="input-group">
                         <div class="slider-label-group">
                             <label for="commissionRate">Average OTA Commission Rate</label>
-                            <span class="slider-value" id="commissionRateValue">25%</span>
+                            <span class="slider-value" id="commissionRateValue">25.0%</span>
                         </div>
                         <div class="slider-container">
-                            <input type="range" id="commissionRate" class="slider" min="15" max="35" value="25">
+                            <input type="range" id="commissionRate" class="slider" min="5" max="50" step="0.1" value="25">
                         </div>
                     </div>
                     <div class="input-group">
@@ -505,19 +505,19 @@
                     <div class="input-group">
                         <div class="slider-label-group">
                             <label for="conversionImprovement">Projected Conversion Rate Improvement</label>
-                            <span class="slider-value" id="conversionImprovementValue">40%</span>
+                            <span class="slider-value" id="conversionImprovementValue">40.0%</span>
                         </div>
                         <div class="slider-container">
-                            <input type="range" id="conversionImprovement" class="slider" min="20" max="60" value="40">
+                            <input type="range" id="conversionImprovement" class="slider" min="1" max="100" step="0.1" value="40">
                         </div>
                     </div>
                     <div class="input-group">
                          <div class="slider-label-group">
                             <label for="directBookingIncrease">Direct Booking Increase</label>
-                            <span class="slider-value" id="directBookingIncreaseValue">25%</span>
+                            <span class="slider-value" id="directBookingIncreaseValue">25.0%</span>
                         </div>
                         <div class="slider-container">
-                            <input type="range" id="directBookingIncrease" class="slider" min="10" max="50" value="25">
+                            <input type="range" id="directBookingIncrease" class="slider" min="0.1" max="100" step="0.1" value="25">
                         </div>
                     </div>
                 </div>
@@ -754,7 +754,12 @@
                 if (elements.inputs[key].type === 'range') {
                     const valueDisplay = elements.outputs[key + 'Value'];
                     if (valueDisplay) {
-                        valueDisplay.textContent = formatPercent(parseFloat(elements.inputs[key].value), key === 'conversionRate' ? 1 : 0);
+                        let decimals = 0;
+                        const decimalSliders = ['conversionRate', 'otaPercentage', 'directBookingIncrease', 'commissionRate', 'conversionImprovement'];
+                        if (decimalSliders.includes(key)) {
+                            decimals = 1;
+                        }
+                        valueDisplay.textContent = formatPercent(parseFloat(elements.inputs[key].value), decimals);
                     }
                 }
             }
@@ -864,7 +869,7 @@
                 const visits = parseFloat(elements.inputs.monthlyVisits.value) || 0;
                 if (visits > 0) {
                     let newConvRate = (bookings / visits) * 100;
-                    elements.inputs.conversionRate.value = clamp(newConvRate, 0.5, 5);
+                    elements.inputs.conversionRate.value = clamp(newConvRate, 0.1, 10);
                     calculateROI();
                 }
             });
@@ -887,7 +892,7 @@
                 const otaRevenue = bookings * (otaPercent / 100) * price;
                 if (otaRevenue > 0) {
                     let newCommRate = (loss / otaRevenue) * 100;
-                    elements.inputs.commissionRate.value = clamp(newCommRate, 15, 35);
+                    elements.inputs.commissionRate.value = clamp(newCommRate, 5, 50);
                     calculateROI();
                 }
             });

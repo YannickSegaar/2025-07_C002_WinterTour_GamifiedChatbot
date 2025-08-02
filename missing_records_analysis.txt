@@ -1,0 +1,216 @@
+MISSING RECORDS ANALYSIS
+==================================================
+
+Comparison Results:
+- Total Apollo records: 9643
+- Total Airtable records: 9438
+- Missing in Airtable: 205
+- Extra in Airtable: 0
+- Successfully imported: 9438
+
+Missing Apollo Lead IDs:
+  54a1293a69702dcef9977f01 - Felipe Henriques | nan | Dirertor Médico
+  54a181bb69702da232550a00 - Monique Beikman | mbeikman@dreamvacations.com | Franchise Owner
+  54a1b1d774686942d302e108 - Andrea Davison | andrea@americas.co.uk | Consultant
+  54a1baca74686945fa3ac50b - Shanell Kiersz | skiersz@holidayvalley.com | Licensed Real Estate Salesperson
+  54a1fa4f7468693cdd237702 - Ray Bazan | nan | consultant
+  54a2082a7468692e7175ce06 - Rama Kilaru | nan | Sr Lead Technology
+  54a20f2f74686933184f0b09 - Philippe Airtropic | nan | Owner
+  54a236ef7468692e71b3d916 - Reginald Pitts | nan | Fill Station
+  54a2b47474686930c22bc636 - Masato Sotoma | nan | Operations Supervisor
+  54a2c2d374686933183b9e3a - Debrah Ammar | nan | President
+  54a2ccfe74686933184bb23d - Roberto Tadokoro | roberto@americas.co.uk | Translater
+  54a3063c7468693fda029d4e - Albert Renan | albert@americas.co.uk | Consultor comercial executivo
+  54a30cc674686935beac9f50 - Mili Pulache | nan | profesora
+  54a3dc8a7468693b8cafb318 - Mike Sash | nan | VP of Commercial
+  54a3e43a7468693676986f1b - Jill Sladen-Pilon | nan | nan
+  54a3f79d7468693209cfcf21 - Allen Duvarney | aduvarney@titaniumplatform.com | Region Support Manager - America's
+  54a40d147468692fa2cc6e28 - Carla Jefferson | nan | Account Manager
+  54a46dc27468692abfc25046 - Luciano Penteado | nan | Owner
+  54a4bcad746869344240aa5f - Viola Nigroni | nan | Head of Licensing, Elle and Elle Decor, Americas
+  54a4c5c17468692abff93962 - Bambi Elsasser | nan | 𝙑𝙖𝙘𝙖𝙩𝙞𝙤𝙣 𝙎𝙥𝙚𝙘𝙞𝙖𝙡𝙞𝙨𝙩
+  54a4ccb67468693442bf7264 - Brett Sussman | bsussman@us.flowtraders.com | Head of Institutional Sales & Trading
+  54a50fba7468692cf0ffbb79 - Tony Schirripa | nan | Head of Travel Go To Market Strategy
+  54a58ec37468693209bd539b - Daniela Grassi | nan | Responsabile Italia
+  54a596a9746869344278b09c - Chris Slowinski | chris.slowinski@inclinevillagegc.com | Sales Associate - Golf Pro Shop
+  54a5a4987468692cf01bb09e - Matthew Borin | nan | Head of Equity Resource Management
+  54a5d2237468692abf235eab - Mariangela Lieto | nan | Diretor médico
+  54a5d74d74686938aca523ad - Pauline Olivier | nan | nan
+  54a5de6f7468692abf1574af - Gareth Lyons | nan | Sales Manager
+  54a5e2b77468692fa2adf2b0 - Leticia Villegas | leticia@americas.co.uk | Head Hunting Mxico
+  54a702a6746869705ab5010d - Luis Sud | nan | Consultor de vendas
+  54a73526746869730ae4151f - Vincent Fretes | vincent@vdfsales.nl | Managing Director
+  54a754e374686962207cc82a - Denyse Fatima | nan | Coordenador tributário & fiscal
+  54a7732774686965d979eb35 - Cinthia Canuto | nan | Coordenadora de Recursos Humanos 
+  54a7e6e87468696829016656 - Merissa Newton | nan | Owner & Travel Specialist
+  54a81822746869682990f75f - Linda Triplett | linda@beyondgrouptravel.com | Owner/Partner
+  54a82334746869705a7aea62 - Joe Pouliot | nan | Senior Sales Manager
+  54a90b7274686933997f700b - Sean Jines | nan | Project Manager II
+  54aa5cf07468692366012c02 - Elizabeth Gordon | nan | Owner/Travel Agent
+  54aad1a17468690377c1961a - Genevieve Curran | g.curran@goldengoose.com | Head of Planning
+  54ab4ee47468690ae677e601 - Anthea Fisher | nan | nan
+  54abe5a5746869332de3d214 - Janeth Soto Motta | janeth@americas.co.uk | docente
+  54c1ba6a7468691639e1b53c - Carolina Sousa | carolina.sousa@cevalogistics.com | Director of Procurement
+  54c272837468697af7cf6d9a - Arthur Sifuentes | nan | Server/Coordinator
+  54eba741746869431156e506 - Emily Kreps | emily.kreps@db.com | Former Global Head of ESG and Sustainable Finance, IB-O&A; Head of ESG
+  54eba78c7468694311ac2607 - Kendy Gomez | nan | Coordenador de TI
+  54ebc8f27468694311cea724 - Rannieri Oliveira | nan |  IT Operations Consultant Projects
+  54ec44ab7468694311085c73 - Kip Burke | kburke@missionridge.com | Adjunct Instructor
+  5570639c736964375f8f1c00 - Thomas Keavey | thomas.keavey@ioppublishing.org | Head of Sales & Marketing
+  55708dd773696425ae941200 - Shaida Hiekali | shaida.hiekali@oracle.com | Head of Oracle Women’s Leadership Program
+  5571317c73696453d5690c00 - Sophie Hitchman | nan | Shift Manager, Server, Bartender
+  557144cd736964585c8d0d00 - Steve Enriquez | nan | Royalty
+  55c9c07df3e5bb4f28004b41 - Trinita Brown | nan | Owner
+  56498225a6da9835b00079b9 - Luisa Rubio Rodriguez | nan | Coordinador
+  57d325dba6da9865c9b9d462 - Munif Zia | nan | Principal
+  57d48282a6da9853ce982c93 - Jeroen Beekwilder | jeroen@safaribookings.com | nan
+  57d6f6b6a6da986af50e18b7 - James Jenkins | nan | Regional Director of Quality Assurance
+  57d784dfa6da981a6720f7db - Priscila Nely | priscila.nely@dasa.com.br | Gerente de contas
+  57da9573a6da984a9c3484d8 - Cassondra Cooper | nan | Massage Therapist
+  57db1deaa6da984bd876277c - Diane Seerey | diane.seerey@poly.com | Head of Zoom Alliance
+  57dbf364a6da9868bb004d11 - Jay Hughes | jay.hughes@omron.com | Engineering Supervisor
+  57e0408da6da980e0bd2b83d - Welber Silva | nan | Gerente Financeiro
+  57e14e36a6da987d9c479a10 - Fabiana Berticelli | nan | Gerente de Marketing na Rede Américas - Regional Rio de Janeiro
+  57e1b082a6da98572faef0b1 - Nicole Kirksey | nicole.kirksey@americusga.gov | Director of Tourism
+  5aae12d8a6da98c37693a02f - Megan Moore | mmoore@getaltd.co.uk | reservations department
+  5abc28b7a6da984144b39552 - Mark Johnson | nan | Maintenance manager
+  5ac22cf7a6da981d22568f15 - Gabriel Giraldi | nan | Diretor Geral Hospitalar
+  5ae17406a6da984c94200c0e - Sharon Wolf | nan | nan
+  5ae414fba6da98d43bba6656 - Shawn Williams | nan | President
+  5b237c11a6da988034cf991b - Daniela Teixeira | nan | Gerente Executivo SADT (Serviço de Apoio ao Diagnóstico e e Terapêutica)
+  5bdeebf680f93e6c94a4fa59 - Capelli Guerra(Dds | nan | Chefe de Equipe e Coordenador de Cirurgia Bucomaxilofacial, Hospitais Leforte Liberdade e Morumbi
+  5c45772380f93e50791d94e5 - Leticia Ranya | nan | Analista de Atração e Seleção
+  5d25b648f6512515036beb4c - Laura Justus | l.justus@dreamvacations.com | Travel Agent
+  5d46bf6c80f93e2c722e876b - Garazi Mendivil | nan | Agente de viajes
+  5d4ca548a3ae61c3115b4177 - Charity Odama | charity.odama@fourseasons.com | Banquet Server
+  5d526d5080f93e4393302926 - Flavia Colombo-Abdullah | fcolombo@ap.org | Operations Manager
+  5d53ceada3ae6133837a0173 - Carolina Moraes | nan | Gerente Executiva de OPME
+  5d53fe9aa3ae614effd211ad - Craig Bilton | nan | Director
+  5d665991f65125afd12c76cd - Ana Sousa | nan | Analista de Gente e Gestao Sênior
+  5dbaabd540d64e0001bb9cab - Gillian Teo | gteo@sportsnetcorp.com | nan
+  5ddeb6216f4af00001ff71de - Leticia Massonetto | nan | Especialista de RH
+  5e5e681c542a2b00018ecb59 - Debbie Lee | nan | Underwriting Manager
+  5e73a42f824769000182aece - James Ayberk | nan | Financial Planning and Analyst @Fashion
+  5e752a853d2dc00001103ba0 - Aitziber Ruiz Aparicio | nan | Agente de viajes azulmarino
+  5e8196952410170001b76408 - Elliott F | nan | FujiFilm Healthcare
+  5e8287dc9812a300016c7697 - David Gutierrez | dgutierrez@enermech.com | Vice President Geographies
+  5e82ff7f715e7a00015c0e41 - Jaime Coelho | jaime.coelho@dasa.com.br | Commercial Director
+  5e865c43cbe2280001c60731 - I-Jing Chen | i.chen@websitetravel.com | Accounts Payable Clerk
+  5ee54fc24e107f00012bcdcf - Tiago Lins | nan | Coordenador de TI
+  5f07cdafb85f52000125559e - Thanos Lagios | thanos.lagios@na.allianz-technology.com | Director of Workplace and Shared Platforms
+  5f0a7339cf027b0001a6623d - Wallani Silva | nan | HR Business Partner
+  5f57856d4d9ff900015187aa - Milena Peixinho | nan | Coordenadora FP&A | Supply Chain Finance
+  5f65db3ce96efe0001534ac6 - Amy Max | amym@travelbeyond.com | Engagement Coordinator
+  5f6f00933969f5000139f95c - Madznah Mustafa | nan | Manager Assistant
+  5fccff773d34460001f2a138 - Yehor Prykhodko | yehor@mountaineerlodge.com | Certified Interpreter
+  5ffb0e65d4af800001fe9e5e - Steve Palleschi | steve@americas.co.uk | Director of Sales
+  6005d731d3001b0001e59222 - Federico Mosqueda | federico@americas.co.uk | Colegio
+  600911065d78180001acd625 - Phyllis Sherrill | nan | Director of Reliability Services, Americas
+  60350c1ec207350001e7630f - Raphael Henrique | nan | Coordenador Corporativo Compras OPME
+  603673a6535e7c0001cf5171 - Erin Zucker | nan | Head of Professional Development
+  60468ba5216ee80001f7562f - Millena Pacheco | nan | Gerente GRCI
+  605a5559245c520001282761 - Yasar Demiroez | yasar@eontours.com | Cycling Tour Guide
+  605fc14b5d8e2c0001547dc0 - Philippe Cuvinot | philippe@americas-fr.com | Corporate Webmaster
+  607098ac162a640001bcb64a - Camilla Lindenmeyer | nan | Gerente de Marketing - Oncologia
+  60abb528d7e5ae0001bdf8ed - Rogerio Reis | rogerioreis@dasa.com.br | Vice-Presidente de Hospitais
+  60c065f07df5920001620ad8 - Carlos Universidad | nan | Asesor comercial
+  60c65f9533d1ce00013af90e - Robert Ray | robert.ray@kelly.co.uk | Substitute Teacher
+  60d1e144e7caa9000141e79e - Betsy Johnston | bbattista@avcaquatic.com | Billing & Accounting Administrator
+  60e4ab424a4bb60001da9f64 - Rodrigo Brito | nan | Coordenador de TI
+  60f568cdde9b980001a5e8db - Melissa Debowski | nan | Head of Talent Development COE
+  610a56de0b01a60001e426d8 - Christopher Egan | christopher.egan@society-search.com | Director of Client Relations
+  610ccf543d10af0001a12f63 - Ankit Gupta | nan | Senior Advisor
+  61168ad0cbef4600010bde5b - Artur Gois | nan | Consultor de Operaes de TI
+  6125f1b6bfc15f0001925c24 - Victoria Egan | victoria@lovethemousetravel.com | Admissions Counselor
+  6127c1ccbaaf5b0001865134 - Jude Chisley | jude@americas.co.uk | Firearms Instructor
+  6139fc610d929700017696a2 - Isabelle Ayala | nan | Analista HRBP PL
+  613ad5569862a50001586f63 - Heba Atta | heba@adamtravel.com | PHP Developer
+  613b0ea94d54c90001bf1fd0 - Leandro Seder | nan | Médico Ortopedista
+  614e968234ce4100014e77fc - Lea Castelberg | nan | Freelance Cabin Crew Member
+  615e0b1cbe9690000176ee88 - Rob Cecconi | rob.cecconi@travica.com | Group Chief Executive Officer
+  616930702ea01800011e0369 - Lucca D'Alessio | nan | Analista de Segurança da Informação Pleno
+  61693559a1b96b0001935cbb - Sidney Tellbuescher | sidney@wilcoxtravel.com | Environmental Technician
+  61990f17ea4718000114d757 - Rodrigo Jimenez | nan | Subgerente
+  620c20043a055c0001cbe854 - Eric Waters | eric.waters@us.hsbc.com | Managing Director, Head of Consumer & Retail Investment Banking
+  62210f15b5146c0001b6ef9c - Elaine Vieira | nan | Gerente de Operações Sr
+  6226feb86c49ca000102e7ee - Patrick Wilson | nan | General Manager - South Florida
+  626bbf296223de0001939ba9 - Famke Van Giesen | nan | Junior Digital Marketeer
+  626fb15c7b512f00019a0db0 - Erik Ramos Guerrero | erik@americas.co.uk | axuliar
+  628377d4b5c3020001c65862 - Te-Atawhai Maginness | nan | Software Engineer
+  62aeb42d6c8b7a000132c56d - Sarah Fournier | nan | Customer Service Rep/Admin
+  62e662210b4e500001b8a9a6 - Katrina Mowbray | katrina@americas.co.uk | Managing Director
+  62e8eb006f0e4300018f6c91 - Fabrizio Galvez | fabrizio.galvez@baml.com | Head of Enterprise Risk Management
+  63165e0b47cd2b0001cd4ddb - Ishmael Dorsey | idorsey@frostburg.edu | History Major, Minor Histories
+  631c7460f6a9bc0001e7ddb9 - Amanda Caldwell | nan | Vacation Specialist
+  6353dbf28d3a3c000171cce8 - Renata Alcantara | nan | Coordenadora de Nutrição HospitalbSanta Joana Recife
+  639d4e7e29f7d10001c85d04 - Karine Poleto | karine.poleto@aesteam.it | Consultor Gente Gestão - A&S
+  63cd7f29bf33ad0001330698 - Zachary Scott | nan | nan
+  63d0daabd73022000140b28c - Tamires Freitas | tamires.freitas@dasa.com.br | Coordenadora de Projetos e Melhoria Continua | Experiência do Cliente
+  63daf97fea4bb90001adaff7 - Merve Selcuk | nan | nan
+  63dd4e123ba375000195b5f4 - Adnan Khan | nan | Chief Executive Officer
+  640f42b63e47880001194460 - Sae Moon | sae@americas.co.uk | VP & GM
+  6410b8c7f482d700018534cf - Ellie Jukes | ellie@airedaletours.co.uk | nan
+  64247db5d789440001e582f9 - Carolina Simoes | carolina@americas.co.uk | Diretora de Societário, M&A, Contratos e LGPD
+  6426c5aa40be1e000178964b - Katelin Noe | knoe@dreamvacations.com | Owner / Travel Advisor
+  6426e2de39217e0001f07bf1 - Shreya Jha | shreya.jha@travelpack.com | Travel Consultant
+  6426e93f74203f0001186f72 - Radhika Thakur | radhika@americas.co.uk | honest describing your duties and experience
+  6477a6b22b0e7900011b0fc2 - Apolline Rudaux | apolline@villanovo.com | Étudiante en Master 1 marketing à l’IESEG School of Management
+  6483608125e6fa0001121423 - Aryane Bovenzo | aryane.bovenzo@dasa.com.br | Enfermeira Navegadora
+  64a45cb8bd6a3e0001b40ae2 - Cheylene Tattersall | nan | Bicycle Mechanic
+  64a4774373eb2f0001f27124 - Jason Hines | nan | Driver/Destinations
+  64a5b204c87ff600018a42bb - Clau Barros | nan | Coordenador hospitalar PS
+  64a6c9b5ad78c30001e68a68 - Robin Begg | robinbegg@inglebyfarms.com | Senior Business Consultant
+  64e68b97e886000001742632 - Bruno Fernandes | nan | médico
+  64f1f041029a010001e6370c - Rachael White | nan | nan
+  64f32e9126029b00019631d0 - Samira Rahali | samira.rahali@adamtravel.net | Director Of Sales
+  651aa8ac40d9100001ecf49d - Kit McLarty | nan | Head of HR
+  653e1ee4338b090001018c46 - Caio Rebouas | caio@americas.co.uk | Mdico
+  6565d34f6cff2c00018f482f - Kevin Kennedy | nan | nan
+  65ca570acc5fec0001381a34 - Christian Gibney | christian@origin.me | Travel Director
+  6604866b36cf780006e393fc - Ingrid Spala | nan | Coordenadora Meio Ambiente e Licenciamento
+  6604a2a5b347600007db51e3 - Joana Lima | joana@americas.co.uk | Técnico de enfermagem
+  6650209d09748e000103cb11 - Bianca Nunes | nan | Analista Gente e Gestão Jr
+  667d010fcc240a000113f004 - Deocleciano Costa | nan | Advisor Information Security and GRC
+  668d38fb8e08e900010a541b - Elizabeth Kerns | elizabeth@americas.co.uk | Kloeckner Metals
+  66b5c9a11cafde0001f84b2d - Renata Silva | nan | Recebimento Fiscal
+  66f015715ca57f0001dd1cc8 - Mandi Coulter | mandi@wilcoxtravel.com | Assistant | Real Estate Agent
+  66f3bf8a9ea8310001ecf19b - Wendy Egloff | wegloff@dreamvacations.com | Owner/Travel Professional
+  66f9ffb6d1c6fd0001886498 - Jim Fuller | jamesfuller@siemens.com | Sr. Vice President
+  66fb7cbcc76fc400011c0784 - Diana May | diana.may@fenixoutdoor.us | Director of Human Resources
+  66fb93d3a1344e0001affbd2 - Martha Sekema | nan | Owner
+  66fd4f299d0924000150dc68 - Millie Fox | millie@americas.co.uk | Marketing & Administration Manager
+  67006ccf5b1370000123b4b0 - Thomas Seoh | nan | Head of BD, Monetization
+  670149ebfd76940001b91cde - Elena Bigu | elena@jetlineholidays.com | Finance and Regulatory Analyst
+  6707872a17d90a0001121a69 - Anael Pichon | nan | Director of Consulting
+  670e101c7214b8000127b0d2 - Tommy Stanley | nan | nan
+  671a5c8ff2305a0001f3ebf1 - Cindy Krenn | cindy.krenn@specsavers.com | Professional Recruitment Manager
+  671c864298a33d0001cc413e - Hernan Amer Acevedo | hernan@americas.co.uk | vigilante
+  673ad1d709a5160001da8e3d - Mayira Hernandez | mayira@americas.co.uk | Camarera
+  673eeac9dc40cc00011fd514 - Monique Costa | nan | Coordenadora Nacional do Núcleo de Gestão de Prot. Clínicos; Farmacovigilancia e Tecnovigilância
+  674127a111f0d90001eb715d - Claudio D'Avila | claudio@americas.co.uk | Medico EMTN
+  674231cad7d5ba00012d16fc - Rebeca Guillen Gonzalez | rebeca@americas.co.uk | Asistente de compras en FOA - Flavors
+  67453e926451da000178cf82 - Oscar Alfaro | oscar@americas.co.uk | Auxiliar de bodega
+  6746bd6b172a840001dbba70 - Jazmili Rios | jrios@moonlightbasin.com | Pastry Cook
+  674ca3469d988c000157dbc1 - Carsten Faeth | carsten@nees.de | Partner
+  674e0cbe1acdb50001938c80 - Carlos Prez | carlos@americas.co.uk | Tcnica de futebol
+  6758532463ec1600016dbad7 - Maria Maciel | maria@americas.co.uk | Pessoal da cozinha
+  67629767001c920001924a02 - Ana Aguiar | ana@americas.co.uk | Enfermeira
+  6766a401c1290300015a8ab1 - Suresh Kumar | suresh@indratravel.co.uk | Author Follow that Dream
+  676d25914d0b2600014f5586 - Juliana Nicacio | juliana@americas.co.uk | Faturista
+  67a456534e14260001701af0 - Miguel Adame | miguel@americas.co.uk | Materials Manager
+  67ae2055e57f2200016dd0d9 - Renata Marques | nan | Tcnico em radiologia
+  67b9add4cd489700017e1848 - Stefanie Burns | nan | Owner
+  67ccc970e6228200017b87ba - Jose Miguel Losada | nan | nan
+  67e1c24a06b20500012f7287 - Bertram Burgin | nan | Regional Supplier Quality Manager 
+  67efab1070ff2f0001a952f8 - Amira Kotbi | amira@adamtravel.com | nan
+  67f0bb888b6b5100012b884a - Victoria Greenberg | nan | Head of Derivatives Execution, Clearing and FXPB Relationship Management
+  6814a52c0edec50001f330a8 - Jenny Parker | nan | Owner And Director
+  683b729753182e0001bedf1e - Typhaine Calderon | nan | nan
+  684d69c0e0bb14000179f813 - Jose Carneiro | nan | Diretor médico
+  684eabd0ccaa2800010307d3 - Bas Masselink | nan | Instructeur
+  68544527e54dc80001826dec - Paulo Junior | nan | Director | Marketing & Digital Transformation
+  686342cc8c2d990001ce8acc - Andre Pinto | nan | Head of Customer Experience, Digital Products and Transformation Office
+  68675d9094686100017c0f62 - Rodrigo Lopez | nan | nan
+  6867a9ad48491a000136ba02 - Katherin Lopez | nan | Sales Support
+  686f9869b1064e000157e163 - Benoit Feder | nan | Export Sales Manager (Asia
+  6874faa136cc020001dfc71e - Matteya Moccia | matteya@seesight-tours.com | Human Resources Recruitment & Engagement Lead

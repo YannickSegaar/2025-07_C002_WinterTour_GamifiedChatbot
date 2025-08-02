@@ -1,0 +1,18 @@
+DUPLICATE APOLLO LEAD IDs ANALYSIS
+==================================================
+
+Apollo Lead ID: 5e5b20ce53dd6200012b4119 - 2 occurrences
+  Row 7570: Saleh Alkhelaiwi | saleh@360explore.com | Record ID: rec19yqxpZIHCVQ11
+  Row 7571: Saleh Alkhelaiwi | saleh@360explore.com | Record ID: rec1ailbCtMR1gSxh
+Apollo Lead ID: 6628dc28fbd4f1000752c941 - 2 occurrences
+  Row 6036: Ammar Dhirani | ammar@galatravels.com | Record ID: reckWz8s9RrsWnHpd
+  Row 6037: Ammar Dhirani | ammar@galatravels.com | Record ID: rec2SyIeKj17IgWA8
+Apollo Lead ID: 61126263b80e6d00018c133d - 2 occurrences
+  Row 4407: Peter Van Gemert | peter.van.gemert@snp.nl | Record ID: rectXos6LzQL2EXXE
+  Row 4408: Peter Van Gemert | peter.van.gemert@snp.nl | Record ID: recXweoM8vf1vMEjR
+Apollo Lead ID: 5efc1cffb946370001fce5d0 - 2 occurrences
+  Row 5194: Rocio Torreblanca Gonzalez | nan | Record ID: recEBh9YJaDJadPng
+  Row 5197: Rocio Torreblanca Gonzalez | nan | Record ID: reckuWoRSKY9H51cj
+Apollo Lead ID: 62eb7981f1a1620001db2654 - 2 occurrences
+  Row 7331: Josh Reischer | nan | Record ID: recQ4iKp6N9IQ7xdq
+  Row 7332: Josh Reischer | nan | Record ID: recU9F9xfQs6WCShf
